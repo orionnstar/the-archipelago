@@ -1,0 +1,24 @@
+2026/01/16-17:13:46.988 47c Recovering log #22
+2026/01/16-17:13:46.989 47c Level-0 table #24: started
+2026/01/16-17:13:46.997 47c Level-0 table #24: 38472 bytes OK
+2026/01/16-17:13:47.002 47c Delete type=0 #22
+2026/01/16-17:13:47.003 47c Delete type=3 #20
+2026/01/16-17:14:55.500 494 Level-0 table #27: started
+2026/01/16-17:14:55.500 494 Level-0 table #27: 0 bytes OK
+2026/01/16-17:14:55.503 494 Delete type=0 #25
+2026/01/16-17:14:55.503 494 Manual compaction at level-0 from '!fog!6INKDYLzibCQstNj' @ 72057594037927935 : 1 .. '!fog!pTVzhf0tmrMFxUJJ' @ 0 : 0; will stop at '!fog!pTVzhf0tmrMFxUJJ' @ 32 : 1
+2026/01/16-17:14:55.503 494 Compacting 1@0 + 1@1 files
+2026/01/16-17:14:55.542 494 Generated table #28@0: 11 keys, 742002 bytes
+2026/01/16-17:14:55.542 494 Compacted 1@0 + 1@1 files => 742002 bytes
+2026/01/16-17:14:55.548 494 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/16-17:14:55.548 494 Delete type=2 #21
+2026/01/16-17:14:55.548 494 Delete type=2 #24
+2026/01/16-17:14:55.550 494 Manual compaction at level-0 from '!fog!pTVzhf0tmrMFxUJJ' @ 32 : 1 .. '!fog!pTVzhf0tmrMFxUJJ' @ 0 : 0; will stop at (end)
+2026/01/16-17:14:55.550 494 Manual compaction at level-1 from '!fog!6INKDYLzibCQstNj' @ 72057594037927935 : 1 .. '!fog!pTVzhf0tmrMFxUJJ' @ 0 : 0; will stop at '!fog!pTVzhf0tmrMFxUJJ' @ 32 : 1
+2026/01/16-17:14:55.550 494 Compacting 1@1 + 1@2 files
+2026/01/16-17:14:55.604 494 Generated table #29@1: 12 keys, 944188 bytes
+2026/01/16-17:14:55.604 494 Compacted 1@1 + 1@2 files => 944188 bytes
+2026/01/16-17:14:55.607 494 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/16-17:14:55.608 494 Delete type=2 #19
+2026/01/16-17:14:55.608 494 Delete type=2 #28
+2026/01/16-17:14:55.609 494 Manual compaction at level-1 from '!fog!pTVzhf0tmrMFxUJJ' @ 32 : 1 .. '!fog!pTVzhf0tmrMFxUJJ' @ 0 : 0; will stop at (end)
